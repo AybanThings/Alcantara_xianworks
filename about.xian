@@ -1,0 +1,13 @@
+{{> head }}
+<body class="bg-gray-50">
+  {{> nav }}
+  <div class="container mx-auto px-4 py-12">
+    <h1 class="text-3xl font-bold text-gray-800">About {{ name }}</h1>
+    <p class="mt-4 text-gray-600 max-w-2xl">{{ description }}</p>
+    <ul class="mt-6 text-gray-700 space-y-2">
+      <li>🎓 Student at Mindoro State University</li>
+      <li>💻 Learning Node.js, Express &amp; XianFire</li>
+      <li>📌 This page is served by the <code class="bg-gray-200 px-1 rounded">/ivan/about</code> route</li>
+    </ul>
+  </div>
+{{> footer }}
